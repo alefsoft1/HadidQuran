@@ -1,0 +1,255 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  BiDiMode = bdRightToLeft
+  Caption = #1576#1587#1605' '#1575#1604#1604#1607' '#1575#1604#1585#1581#1605#1606' '#1575#1604#1585#1581#1740#1605' - '#1581#1583#1740#1583
+  ClientHeight = 522
+  ClientWidth = 397
+  Position = ScreenCenter
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 397.000000000000000000
+    Size.Height = 522.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 2
+    TabPosition = PlatformDefault
+    Sizes = (
+      397s
+      496s
+      397s
+      496s
+      397s
+      496s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 58.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #1589#1601#1581#1607' 1'
+      ExplicitSize.cx = 58.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Panel1: TPanel
+        Align = Client
+        Size.Width = 397.000000000000000000
+        Size.Height = 496.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button1: TButton
+          Align = Bottom
+          Position.Y = 456.000000000000000000
+          Size.Width = 397.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #1662#1582#1588
+          OnClick = Button1Click
+        end
+        object WebBrowser1: TWebBrowser
+          Align = Top
+          Size.Width = 397.000000000000000000
+          Size.Height = 353.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 61.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #1589#1601#1581#1607' 2'
+      ExplicitSize.cx = 61.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Button2: TButton
+        Align = Top
+        Size.Width = 397.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = #1576#1585#1575#1740' '#1583#1585#1740#1575#1601#1578' '#1604#1740#1587#1578' '#1602#1585#1575#1574#1578' '#1607#1575' '#1608'... '#1705#1604#1740#1705' '#1705#1606#1740#1583
+        OnClick = Button2Click
+      end
+      object GroupBox1: TGroupBox
+        Align = Top
+        Position.Y = 33.000000000000000000
+        Size.Width = 397.000000000000000000
+        Size.Height = 115.000000000000000000
+        Size.PlatformDefault = False
+        Text = #1604#1740#1587#1578' '#1587#1585#1608#1585#1607#1575
+        TabOrder = 1
+        object StringGrid1: TStringGrid
+          Align = Bottom
+          CanFocus = True
+          ClipChildren = True
+          Position.Y = 24.000000000000000000
+          Size.Width = 397.000000000000000000
+          Size.Height = 91.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Viewport.Width = 393.000000000000000000
+          Viewport.Height = 66.000000000000000000
+        end
+      end
+      object GroupBox2: TGroupBox
+        Align = Client
+        Size.Width = 397.000000000000000000
+        Size.Height = 282.000000000000000000
+        Size.PlatformDefault = False
+        Text = #1604#1740#1587#1578' '#1605#1581#1578#1608#1575#1740' '#1587#1585#1608#1585
+        TabOrder = 2
+        object Grid1: TGrid
+          Align = Bottom
+          CanFocus = True
+          ClipChildren = True
+          Position.Y = -9.000000000000000000
+          Size.Width = 397.000000000000000000
+          Size.Height = 291.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Viewport.Width = 393.000000000000000000
+          Viewport.Height = 266.000000000000000000
+        end
+      end
+      object Button3: TButton
+        Align = Bottom
+        Position.Y = 464.000000000000000000
+        Size.Width = 397.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'Button3'
+      end
+      object Button4: TButton
+        Align = Bottom
+        Position.Y = 430.000000000000000000
+        Size.Width = 397.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = 'Button4'
+      end
+    end
+    object Test: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 41.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Test'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Button5: TButton
+        Position.X = 32.000000000000000000
+        Position.Y = 56.000000000000000000
+        Size.Width = 129.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Import Text Res'
+        OnClick = Button5Click
+      end
+      object Button6: TButton
+        Position.X = 32.000000000000000000
+        Position.Y = 94.000000000000000000
+        Size.Width = 129.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Zip Test'
+        OnClick = Button6Click
+      end
+      object ProgressBar1: TProgressBar
+        Orientation = Horizontal
+        Position.X = 48.000000000000000000
+        Position.Y = 166.000000000000000000
+        Size.Width = 273.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Button7: TButton
+        Position.X = 48.000000000000000000
+        Position.Y = 198.000000000000000000
+        Size.Width = 80.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'Download'
+        OnClick = Button7Click
+      end
+    end
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 224
+    Top = 266
+  end
+  object TabControlRTL1: TTabControlRTL
+    Left = 224
+    Top = 168
+  end
+  object RTLFixer1: TRTLFixer
+    ArabicDigits = True
+    DigitTypes = ArabicDigitType1
+    MathOrder = LeftToRight
+    Left = 224
+    Top = 216
+  end
+  object IdHTTP1: TIdHTTP
+    AllowCookies = True
+    ProxyParams.BasicAuthentication = False
+    ProxyParams.ProxyPort = 0
+    Request.ContentLength = -1
+    Request.ContentRangeEnd = -1
+    Request.ContentRangeStart = -1
+    Request.ContentRangeInstanceLength = -1
+    Request.Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    Request.BasicAuthentication = False
+    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
+    Request.Ranges.Units = 'bytes'
+    Request.Ranges = <>
+    HTTPOptions = [hoForceEncodeParams]
+    Left = 224
+    Top = 322
+  end
+  object SQLConnection1: TSQLConnection
+    ConnectionName = 'SQLITECONNECTION'
+    DriverName = 'Sqlite'
+    Params.Strings = (
+      'DriverName=Sqlite'
+      'Database=test.db')
+    Left = 96
+    Top = 339
+  end
+  object SQLTable1: TSQLTable
+    MaxBlobSize = -1
+    SQLConnection = SQLConnection1
+    TableName = 'server'
+    Left = 96
+    Top = 395
+  end
+  object DataSource1: TDataSource
+    DataSet = SQLTable1
+    Left = 200
+    Top = 403
+  end
+end

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/09/17 16:09:08.000.089,=D:\p\smP\Unit2.pas</Transaction>
+    <Transaction>2018/09/17 16:09:37.000.407,D:\AlQuran\#HadidMobile\HFXM\UnitMain.pas=D:\p\smP\Unit2.pas</Transaction>
+    <Transaction>2018/09/17 16:09:37.000.407,D:\AlQuran\#HadidMobile\HFXM\UnitMain.fmx=D:\p\smP\Unit2.fmx</Transaction>
+    <Transaction>2018/09/17 16:09:44.000.905,D:\AlQuran\#HadidMobile\HFXM\ProjectHadid.dproj=D:\p\smP\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
