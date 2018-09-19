@@ -9,20 +9,20 @@ Mobile/GeckoView: https://wiki.mozilla.org/Mobile/GeckoView
 
 Winform/GeckoFx: https://bitbucket.org/geckofx/
 
-# Realted Projects-thanks to:
+# Realted Projects-Thanks to:
 Quran Zekr Project: https://sourceforge.net/projects/zekr/files/Zekr/
 
 Verse By Verse Quran Files: http://www.everyayah.com/data/status.php
 
 Project Tanzil: http://tanzil.net/
 
-Zekr Quran Study:http://zekr.org/
+Zekr Quran Study: http://zekr.org/
 
 Quran Master: https://quran.com/
 
 King Fahd Quran Complex: http://fonts.qurancomplex.gov.sa
 
-Quran Database:http://www.qurandatabase.org/
+Quran Database: http://www.qurandatabase.org/
 
 Quran Research Tool: https://github.com/oazabir/Quran
 
