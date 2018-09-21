@@ -30,3 +30,5 @@ Al-anvar Quran: https://sourceforge.net/projects/al-anvar/
 
 SIL International: https://software.sil.org/arabicfonts/
 
+Noor Soft Fonts: https://www.noorsoft.org/
+
