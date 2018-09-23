@@ -18,7 +18,7 @@ Project Tanzil: http://tanzil.net/
 
 Zekr Quran Study: http://zekr.org/
 
-Quran Master: https://quran.com/
+Quran Site: https://quran.com/
 
 Quran Database: http://www.qurandatabase.org/
 
