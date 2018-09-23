@@ -20,8 +20,6 @@ Zekr Quran Study: http://zekr.org/
 
 Quran Master: https://quran.com/
 
-King Fahd Quran Complex: http://fonts.qurancomplex.gov.sa
-
 Quran Database: http://www.qurandatabase.org/
 
 Quran Research Tool: https://github.com/oazabir/Quran
